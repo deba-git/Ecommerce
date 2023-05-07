@@ -1,6 +1,8 @@
 .shopTitle {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
+  color: #ec848b ;
+  /* font-family: */
 }
 
 .products {
@@ -58,4 +60,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
+}
+
+
+@media only screen and (max-width:1120px){
+
+  .shopTitle{
+    text-align: center;
+
+  }
+  .topBar{
+    top:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+} 
+
+@media only screen and (max-width:450px){
+  .topbar{
+    top: 60px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+   
+  }
 }

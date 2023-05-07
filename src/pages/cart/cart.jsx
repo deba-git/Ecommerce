@@ -15,7 +15,7 @@ export const Cart = () => {
   return !!shopData && (
     <div className="cart">
       <div>
-        <h1> Cart Items </h1>
+        <h1 className="cartHeading"> Cart Items </h1>
       </div>
       <div className="cartItems">
         {PRODUCTS.map((product) => {
@@ -28,7 +28,7 @@ export const Cart = () => {
         })}
       </div>
       <div className="checkout">
-          <p> Subtotal: ₹{getTotalPrice()}</p>
+          <p className="total"> Subtotal: ₹{getTotalPrice()}</p>
           <button onClick={() => navigate("/")}> Continue Shoping </button>
         </div>
     </div>

@@ -33,7 +33,7 @@ export const PRODUCTS = [
    },
    {
       id: 5,
-      productName: "WindFree",
+      productName: " Samsung WindFree AC",
       price:  55242,
       productImage: 'https://images.samsung.com/is/image/samsung/p6pim/in/ar18cy5amwknna/gallery/in-ar9500-ac-windfree-448326-ar18cy5amwknna-thumb-534999069?$252_252_PNG$', // TODO: add image
       category: 'Air conditioner',
@@ -47,14 +47,14 @@ export const PRODUCTS = [
    },
    {
       id: 7,
-      productName: "Voltas All Weather Split AC",
+      productName: "Voltas All Weather AC",
       price: 63999,
       productImage: 'https://www.myvoltas.com/pub/media/catalog/product/cache/2720ddd53d430d4ecc4dfa5da0667ee1/b/a/base06_1.png', // TODO: add image
       category: 'Air conditioner',
    },
    {
       id: 8,
-      productName: " LG AI Convertible 6-in-1",
+      productName: " LG Convertible 6-in-1",
       price: 50999,
       productImage: 'https://www.lg.com/in/images/split-ac/md07565744/gallery/RS-Q18PNXE-D-01.jpg', // TODO: add image
       category: 'Air conditioner',
@@ -68,14 +68,14 @@ export const PRODUCTS = [
    },
    {
       id: 10,
-      productName: " Bottom Freezer, Double Door Refrigerator",
+      productName: "Double Door Refrigerator",
       price: 78490,
       productImage: 'https://www.lg.com/in/images/refrigerators/md06236176/GC-B569BLCF-Refrigerators-Front-View-Thumb-350.jpg', // TODO: add image
       category: 'Refrigerator',
    },
    {
       id: 11,
-      productName: "InstaView Door-in-Door, French Door",
+      productName: "French Door",
       price: 334949,
       productImage: 'https://www.lg.com/in/images/refrigerators/md07529192/GR-X31FMQHL-Refrigerators-Food-Front-Light-On-350.jpg', // TODO: add image
       category: 'Refrigerator',
@@ -91,7 +91,7 @@ export const PRODUCTS = [
       id: 13,
       productName: "MI TV 4X",
       price: 34999,
-      productImage: 'https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1587610315.20344354.png?width=400&height=400', // TODO: add image
+      productImage: 'https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1587610315.20344354.png?', // TODO: add image
       category: 'TV',
    },
    {
